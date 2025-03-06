@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "hyperion:judgement_core"
+    },
+    "E": {
+      "item": "hyperion:tessellated_ender_pearl"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "EXS",
+    "XCS",
+    "EXS"
+  ],
+  "result": {
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:infinity": 1,
+          "minecraft:multishot": 1,
+          "minecraft:piercing": 3
+        }
+      }
+    },
+    "count": 1,
+    "id": "hyperion:terminator"
+  }
+}

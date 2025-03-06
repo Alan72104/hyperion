@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperion:enchanted_lapis_lazuli"
+  }
+}

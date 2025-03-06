@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "hyperion:tessellated_ender_pearl"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperion:judgement_core"
+  }
+}

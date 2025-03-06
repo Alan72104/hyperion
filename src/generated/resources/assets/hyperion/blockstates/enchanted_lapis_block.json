@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hyperion:block/lapis_block"
+    }
+  }
+}

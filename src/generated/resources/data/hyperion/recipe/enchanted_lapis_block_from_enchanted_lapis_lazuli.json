@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    },
+    {
+      "item": "hyperion:enchanted_lapis_lazuli"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperion:enchanted_lapis_block"
+  }
+}

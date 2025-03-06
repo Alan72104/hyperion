@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "hyperion:enchanted_lapis_block"
+    },
+    "X": {
+      "item": "hyperion:absolute_ender_pearl"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "XXX",
+    "#X#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperion:tessellated_ender_pearl"
+  }
+}

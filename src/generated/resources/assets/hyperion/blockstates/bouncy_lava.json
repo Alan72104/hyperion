@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hyperion:block/bouncy_lava"
+    }
+  }
+}

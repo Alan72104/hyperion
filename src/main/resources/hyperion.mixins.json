@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "a7.hyperion.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractArrowMixin"
+  ],
+  "client": [
+    "LocalPlayerMixin",
+    "accessor.LocalPlayerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

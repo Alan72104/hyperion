@@ -1,0 +1,24 @@
+// 1.21.1	2025-03-06T02:33:54.5374209	Registrate Provider for hyperion [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (enchantments), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+e25dcf84e7c040dc5115996d37ecf755c0d1b815 assets/hyperion/blockstates/bouncy_lava.json
+56bdfcbab0cb7f2c9878e3dc8ef88949ed132379 assets/hyperion/blockstates/enchanted_lapis_block.json
+35fe3348f934756be0b3237d2aff5598cedd5fd3 assets/hyperion/blockstates/example_block.json
+276840c81dbe109805731ce52fbc6033ab65be91 assets/hyperion/lang/en_ud.json
+881ce59e942d1e7546a72ca0900734efa3a3f915 assets/hyperion/lang/en_us.json
+8c6cee784ebf1452d6ebda6523e512c1e72099f3 assets/hyperion/models/block/bouncy_lava.json
+1a74d28d6044c1aab33a41b917084ee74506cf63 assets/hyperion/models/block/example_block.json
+eed032b4b5e34491b3abad5cb8313c29b7d5e3f6 assets/hyperion/models/block/lapis_block.json
+364e7e3e24f65ebcb71bb642d5ed836ce475deeb assets/hyperion/models/item/absolute_ender_pearl.json
+5bd7d8d8533dc5684d1890c4bcf719b89763a370 assets/hyperion/models/item/aspect_of_the_void.json
+f7c6a20428725d69db407587a8e248638045adb2 assets/hyperion/models/item/bouncy_lava_bucket.json
+4ec8cad32931528d210328f359023aaf3c72cbca assets/hyperion/models/item/dungeon_map.json
+0106ab6df3b7b5c8304594e7f362052a23769056 assets/hyperion/models/item/enchanted_ender_pearl.json
+13fe3b77beb996ff0bda581d68d83c45cb7405d2 assets/hyperion/models/item/enchanted_lapis_block.json
+8a48f4f32336d1722d37663c696173d6241f81bb assets/hyperion/models/item/enchanted_lapis_lazuli.json
+389d52188f714d49fdccac79d25458eb68ca0e34 assets/hyperion/models/item/example_block.json
+3605ea4cea96cf08b933527b2d63dfe2be720ce0 assets/hyperion/models/item/hyperion.json
+8f5bb34b0ceff73d386b4f6f15d526991257a435 assets/hyperion/models/item/judgement_core.json
+6f29b8cfc4047f61e59006fa92e22b832c01b2f6 assets/hyperion/models/item/terminator.json
+cb3760bc0abf6965587235a18dcd8e6d29b46d33 assets/hyperion/models/item/tessellated_ender_pearl.json
+e05c5079b052c2ca7ebac1594b2f78b1e9438de8 data/hyperion/loot_table/blocks/enchanted_lapis_block.json
+da60cbc225d774ef18c3a1a70575648dc8f797ba data/hyperion/loot_table/blocks/example_block.json
+74cd47f819fe17b6382f0d7cdd6ede704bd050e3 data/minecraft/tags/fluid/lava.json

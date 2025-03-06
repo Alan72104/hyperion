@@ -1,0 +1,16 @@
+{
+  "block.hyperion.bouncy_lava": "Bouncy Lava",
+  "block.hyperion.enchanted_lapis_block": "Enchanted Lapis Block",
+  "block.hyperion.example_block": "Example Block",
+  "item.hyperion.absolute_ender_pearl": "Absolute Ender Pearl",
+  "item.hyperion.aspect_of_the_void": "Aspect Of The Void",
+  "item.hyperion.bouncy_lava_bucket": "Bouncy Lava Bucket",
+  "item.hyperion.dungeon_map": "Dungeon Map",
+  "item.hyperion.enchanted_ender_pearl": "Enchanted Ender Pearl",
+  "item.hyperion.enchanted_lapis_lazuli": "Enchanted Lapis Lazuli",
+  "item.hyperion.hyperion": "Hyperion",
+  "item.hyperion.judgement_core": "Judgement Core",
+  "item.hyperion.terminator": "Terminator",
+  "item.hyperion.tessellated_ender_pearl": "Tessellated Ender Pearl",
+  "itemGroup.hyperion.hyperion": "Hyperion"
+}
