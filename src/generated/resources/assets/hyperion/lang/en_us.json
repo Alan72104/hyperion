@@ -2,6 +2,10 @@
   "block.hyperion.bouncy_lava": "Bouncy Lava",
   "block.hyperion.enchanted_lapis_block": "Enchanted Lapis Block",
   "block.hyperion.example_block": "Example Block",
+  "block.hyperion.spawn_anchor": "Spawn Anchor",
+  "block.hyperion.wither_essence": "Wither Essence",
+  "block.hyperion.wither_essence_wall_block": "Wither Essence",
+  "entity.hyperion.terminator_arrow": "Terminator Arrow",
   "item.hyperion.absolute_ender_pearl": "Absolute Ender Pearl",
   "item.hyperion.aspect_of_the_void": "Aspect Of The Void",
   "item.hyperion.bouncy_lava_bucket": "Bouncy Lava Bucket",
@@ -12,5 +16,8 @@
   "item.hyperion.judgement_core": "Judgement Core",
   "item.hyperion.terminator": "Terminator",
   "item.hyperion.tessellated_ender_pearl": "Tessellated Ender Pearl",
+  "item.hyperion.treasure_artifact": "Treasure Artifact",
+  "item.hyperion.treasure_ring": "Treasure Ring",
+  "item.hyperion.treasure_talisman": "Treasure Talisman",
   "itemGroup.hyperion.hyperion": "Hyperion"
 }

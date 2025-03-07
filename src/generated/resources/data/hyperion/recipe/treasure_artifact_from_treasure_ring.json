@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    },
+    {
+      "item": "hyperion:treasure_ring"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperion:treasure_artifact"
+  }
+}

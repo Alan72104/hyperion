@@ -4,7 +4,8 @@
   "package": "a7.hyperion.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "AbstractArrowMixin"
+    "AbstractArrowMixin",
+    "accessor.BlockEntityAccessor"
   ],
   "client": [
     "LocalPlayerMixin",

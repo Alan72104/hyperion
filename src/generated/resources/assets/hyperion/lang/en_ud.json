@@ -2,6 +2,10 @@
   "block.hyperion.bouncy_lava": "ɐʌɐꞀ ʎɔunoᗺ",
   "block.hyperion.enchanted_lapis_block": "ʞɔoןᗺ sıdɐꞀ pǝʇuɐɥɔuƎ",
   "block.hyperion.example_block": "ʞɔoןᗺ ǝןdɯɐxƎ",
+  "block.hyperion.spawn_anchor": "ɹoɥɔuⱯ uʍɐdS",
+  "block.hyperion.wither_essence": "ǝɔuǝssƎ ɹǝɥʇıM",
+  "block.hyperion.wither_essence_wall_block": "ǝɔuǝssƎ ɹǝɥʇıM",
+  "entity.hyperion.terminator_arrow": "ʍoɹɹⱯ ɹoʇɐuıɯɹǝ⟘",
   "item.hyperion.absolute_ender_pearl": "ןɹɐǝԀ ɹǝpuƎ ǝʇnןosqⱯ",
   "item.hyperion.aspect_of_the_void": "pıoΛ ǝɥ⟘ ɟO ʇɔǝdsⱯ",
   "item.hyperion.bouncy_lava_bucket": "ʇǝʞɔnᗺ ɐʌɐꞀ ʎɔunoᗺ",
@@ -12,5 +16,8 @@
   "item.hyperion.judgement_core": "ǝɹoƆ ʇuǝɯǝbpnſ",
   "item.hyperion.terminator": "ɹoʇɐuıɯɹǝ⟘",
   "item.hyperion.tessellated_ender_pearl": "ןɹɐǝԀ ɹǝpuƎ pǝʇɐןןǝssǝ⟘",
+  "item.hyperion.treasure_artifact": "ʇɔɐɟıʇɹⱯ ǝɹnsɐǝɹ⟘",
+  "item.hyperion.treasure_ring": "buıᴚ ǝɹnsɐǝɹ⟘",
+  "item.hyperion.treasure_talisman": "uɐɯsıןɐ⟘ ǝɹnsɐǝɹ⟘",
   "itemGroup.hyperion.hyperion": "uoıɹǝdʎH"
 }

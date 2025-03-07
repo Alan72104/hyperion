@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "hyperion:enchanted_lapis_lazuli"
+            "items": "hyperion:treasure_talisman"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "hyperion:gems/lapis_from_enchanted_lapis_lazuli"
+        "recipe": "hyperion:treasure_ring"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "hyperion:gems/lapis_from_enchanted_lapis_lazuli"
+      "hyperion:treasure_ring"
     ]
   }
 }

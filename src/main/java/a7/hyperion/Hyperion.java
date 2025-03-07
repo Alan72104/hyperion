@@ -1,13 +1,10 @@
 package a7.hyperion;
 
-import a7.hyperion.data.MyItemModelProvider;
-import a7.hyperion.data.MyRecipeProvider;
+import a7.hyperion.datagen.MyItemModelProvider;
+import a7.hyperion.datagen.MyRecipeProvider;
 import a7.hyperion.dungeon.DungeonManager;
-import a7.hyperion.payload.GenerateDungeonPayload;
 import com.mojang.logging.LogUtils;
 import com.tterrag.registrate.Registrate;
-import it.unimi.dsi.fastutil.objects.Reference2ObjectMap;
-import it.unimi.dsi.fastutil.objects.Reference2ObjectOpenHashMap;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.HolderSet;
@@ -18,7 +15,6 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.util.profiling.jfr.event.PacketReceivedEvent;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -31,14 +27,11 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.client.event.RenderTooltipEvent;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.TagsUpdatedEvent;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
-import net.neoforged.neoforge.network.handling.DirectionalPayloadHandler;
-import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.registries.holdersets.OrHolderSet;
 import org.slf4j.Logger;
 
@@ -61,6 +54,7 @@ public class Hyperion {
         AllFluids.register();
         AllItems.register();
         AllEntityTypes.register();
+        AllBlockEntityTypes.register();
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

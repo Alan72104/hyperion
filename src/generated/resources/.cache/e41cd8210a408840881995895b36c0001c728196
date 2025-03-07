@@ -1,12 +1,16 @@
-// 1.21.1	2025-03-06T02:33:54.5374209	Registrate Provider for hyperion [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (enchantments), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-03-07T10:42:53.667636	Registrate Provider for hyperion [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (enchantments), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 e25dcf84e7c040dc5115996d37ecf755c0d1b815 assets/hyperion/blockstates/bouncy_lava.json
 56bdfcbab0cb7f2c9878e3dc8ef88949ed132379 assets/hyperion/blockstates/enchanted_lapis_block.json
 35fe3348f934756be0b3237d2aff5598cedd5fd3 assets/hyperion/blockstates/example_block.json
-276840c81dbe109805731ce52fbc6033ab65be91 assets/hyperion/lang/en_ud.json
-881ce59e942d1e7546a72ca0900734efa3a3f915 assets/hyperion/lang/en_us.json
+95194496be447568fa19f6d98f825ee5e2b00741 assets/hyperion/blockstates/spawn_anchor.json
+94ee00eebd82061338b6db439a84b3fdf98f3942 assets/hyperion/blockstates/wither_essence.json
+94ee00eebd82061338b6db439a84b3fdf98f3942 assets/hyperion/blockstates/wither_essence_wall_block.json
+3726b22345e825c52208e18b3670bf105fafd1a1 assets/hyperion/lang/en_ud.json
+be0df79ccf63130f18bf475afe0db9b8c3052ded assets/hyperion/lang/en_us.json
 8c6cee784ebf1452d6ebda6523e512c1e72099f3 assets/hyperion/models/block/bouncy_lava.json
 1a74d28d6044c1aab33a41b917084ee74506cf63 assets/hyperion/models/block/example_block.json
 eed032b4b5e34491b3abad5cb8313c29b7d5e3f6 assets/hyperion/models/block/lapis_block.json
+5c57c834ac5e334100c569e1e426e520ce68c9eb assets/hyperion/models/block/spawn_anchor.json
 364e7e3e24f65ebcb71bb642d5ed836ce475deeb assets/hyperion/models/item/absolute_ender_pearl.json
 5bd7d8d8533dc5684d1890c4bcf719b89763a370 assets/hyperion/models/item/aspect_of_the_void.json
 f7c6a20428725d69db407587a8e248638045adb2 assets/hyperion/models/item/bouncy_lava_bucket.json
@@ -17,8 +21,16 @@ f7c6a20428725d69db407587a8e248638045adb2 assets/hyperion/models/item/bouncy_lava
 389d52188f714d49fdccac79d25458eb68ca0e34 assets/hyperion/models/item/example_block.json
 3605ea4cea96cf08b933527b2d63dfe2be720ce0 assets/hyperion/models/item/hyperion.json
 8f5bb34b0ceff73d386b4f6f15d526991257a435 assets/hyperion/models/item/judgement_core.json
+8ac18572e3a897193e2ae436743cf87ecaeedaba assets/hyperion/models/item/spawn_anchor.json
 6f29b8cfc4047f61e59006fa92e22b832c01b2f6 assets/hyperion/models/item/terminator.json
 cb3760bc0abf6965587235a18dcd8e6d29b46d33 assets/hyperion/models/item/tessellated_ender_pearl.json
+8e0b81b0111b397b7b96a50ab42cbd0b7f587af0 assets/hyperion/models/item/treasure_artifact.json
+016318492676db2f9ce0374e2456bdfd0844e2e7 assets/hyperion/models/item/treasure_ring.json
+59bae625b15f1f6ca3821d1c00d8c1bde72f90aa assets/hyperion/models/item/treasure_talisman.json
+43d32e7d031485f83a1b4eb56ecb3cc40a456163 assets/hyperion/models/item/wither_essence.json
 e05c5079b052c2ca7ebac1594b2f78b1e9438de8 data/hyperion/loot_table/blocks/enchanted_lapis_block.json
 da60cbc225d774ef18c3a1a70575648dc8f797ba data/hyperion/loot_table/blocks/example_block.json
+12d996193b2b825f3ef66d6f21e795cbcd4b9f33 data/hyperion/loot_table/blocks/spawn_anchor.json
+ef011851b2e376f79bd53d3d9d17e790318d25eb data/hyperion/loot_table/blocks/wither_essence.json
+e9f4f682923b14bc2dc85bd4cc327c3c64b850f2 data/hyperion/loot_table/blocks/wither_essence_wall_block.json
 74cd47f819fe17b6382f0d7cdd6ede704bd050e3 data/minecraft/tags/fluid/lava.json

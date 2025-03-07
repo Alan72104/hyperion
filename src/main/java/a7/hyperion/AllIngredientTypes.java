@@ -1,6 +1,6 @@
 package a7.hyperion;
 
-import a7.hyperion.data.CountIngredient;
+import a7.hyperion.datagen.CountIngredient;
 import net.neoforged.neoforge.common.crafting.IngredientType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;

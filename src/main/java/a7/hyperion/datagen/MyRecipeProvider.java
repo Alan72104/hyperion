@@ -1,11 +1,10 @@
-package a7.hyperion.data;
+package a7.hyperion.datagen;
 
 import a7.hyperion.AllBlocks;
 import a7.hyperion.AllItems;
 import a7.hyperion.Hyperion;
 import a7.hyperion.item.TerminatorItem;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -29,6 +28,10 @@ public class MyRecipeProvider extends RecipeProvider {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", path));
     }
 
+    private static ResourceLocation getItemKey(ItemLike item) {
+        return BuiltInRegistries.ITEM.getKey(item.asItem());
+    }
+
     private static MyShapedRecipeBuilder shaped(RecipeCategory category, ItemLike result) {
         return shaped(category, result, 1);
     }
@@ -42,33 +45,37 @@ public class MyRecipeProvider extends RecipeProvider {
     }
 
     private static void packUnpack3x3(RecipeCategory category, ItemLike result, TagKey<Item> from, ItemLike unpackTo, RecipeOutput output) {
-        ShapelessRecipeBuilder.shapeless(category, result)
-                .requires(Ingredient.of(from), 9)
-                .unlockedBy("has_item", has(from))
-                .save(output, Hyperion.loc(
-                        BuiltInRegistries.ITEM.getKey(result.asItem()).getPath() +
-                                "_from_" + from.location().getPath().replace('/', '_')));
-        ShapelessRecipeBuilder.shapeless(category, unpackTo, 9)
-                .requires(result)
-                .unlockedBy("has_item", has(result))
-                .save(output, Hyperion.loc(
-                        from.location().getPath() +
-                                "_from_" + BuiltInRegistries.ITEM.getKey(result.asItem()).getPath().replace('/', '_')));
+        pack3x3(category, result, from, output);
+        unpack3x3(category, unpackTo, result, output);
     }
 
     private static void packUnpack3x3(RecipeCategory category, ItemLike result, ItemLike from, RecipeOutput output) {
+        pack3x3(category, result, from, output);
+        unpack3x3(category, from, result, output);
+    }
+
+    private static void pack3x3(RecipeCategory category, ItemLike result, TagKey<Item> from, RecipeOutput output) {
+        ShapelessRecipeBuilder.shapeless(category, result)
+                .requires(Ingredient.of(from), 9)
+                .unlockedBy("has_item", has(from))
+                .save(output, Hyperion.loc(getItemKey(result).getPath() + "_from_" +
+                        from.location().getPath().replace('/', '_')));
+    }
+
+    private static void pack3x3(RecipeCategory category, ItemLike result, ItemLike from, RecipeOutput output) {
         ShapelessRecipeBuilder.shapeless(category, result)
                 .requires(from, 9)
                 .unlockedBy("has_item", has(from))
-                .save(output, Hyperion.loc(
-                        BuiltInRegistries.ITEM.getKey(result.asItem()).getPath() +
-                                "_from_" + BuiltInRegistries.ITEM.getKey(from.asItem()).getPath().replace('/', '_')));
-        ShapelessRecipeBuilder.shapeless(category, from, 9)
-                .requires(result)
-                .unlockedBy("has_item", has(result))
-                .save(output, Hyperion.loc(
-                        BuiltInRegistries.ITEM.getKey(from.asItem()).getPath() +
-                                "_from_" + BuiltInRegistries.ITEM.getKey(result.asItem()).getPath().replace('/', '_')));
+                .save(output, Hyperion.loc(getItemKey(result).getPath() + "_from_" +
+                        getItemKey(from).getPath().replace('/', '_')));
+    }
+
+    private static void unpack3x3(RecipeCategory category, ItemLike result, ItemLike from, RecipeOutput output) {
+        ShapelessRecipeBuilder.shapeless(category, result, 9)
+                .requires(from)
+                .unlockedBy("has_item", has(from))
+                .save(output, Hyperion.loc(getItemKey(result).getPath() + "_from_" +
+                        getItemKey(from).getPath().replace('/', '_')));
     }
 
     @Override
@@ -114,6 +121,15 @@ public class MyRecipeProvider extends RecipeProvider {
                 .define('S', Items.STRING)
                 .unlockedBy(AllItems.JUDGEMENT_CORE)
                 .save(output);
+
+        shaped(RecipeCategory.MISC, AllItems.TREASURE_RING)
+                .pattern("XXX")
+                .pattern("X X")
+                .pattern("XXX")
+                .define('X', AllItems.TREASURE_TALISMAN)
+                .unlockedBy(AllItems.TREASURE_TALISMAN)
+                .save(output);
+        pack3x3(RecipeCategory.MISC, AllItems.TREASURE_ARTIFACT, AllItems.TREASURE_RING, output);
     }
 
     private static class MyShapedRecipeBuilder extends ShapedRecipeBuilder {

@@ -1,4 +1,4 @@
-package a7.hyperion.data;
+package a7.hyperion.datagen;
 
 import a7.hyperion.AllIngredientTypes;
 import com.mojang.serialization.Codec;
